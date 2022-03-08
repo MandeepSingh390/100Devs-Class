@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+}
+
+header, footer{
+	height: 100px;
+	border: 5px	solid blueviolet;
+	clear: both;
+}
+
+.middle{
+	height: 500px;
+	width: 20%;
+	border: 5px solid orange;
+	float: left;
+}
+
+#wide{
+	width: 40%;
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px) {
+	section{
+		background-color: red;
+	}
+
+	#wide{
+		display: none;
+	}
+}

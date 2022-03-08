@@ -1,0 +1,108 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  height: 50px;
+  background: #66768a;
+}
+
+header nav *{
+  float: left;
+  width: 25%;
+  color: white;
+}
+
+main{
+  background: #66768a;
+  padding: 10%;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+}
+
+main p, main a, main + section p{
+  font-size: 25px;
+  padding: 0 10%;
+}
+
+main + section{
+  padding: 9% 25%;
+  font-size: 30px;
+  text-align: center;
+}
+
+main + section + section{
+  padding: 9% 10%;
+  font-size: 20px;
+  text-align: center;
+  background: #dbdfe2;
+  color: #304659;
+}
+
+main + section + section section{
+  float: left;
+  width: 50%;
+}
+
+main + section + section + section{
+  padding: 9% 25%;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer{
+  height: 200px;
+  font-size: 19px;
+}
+
+.foot1{
+  border-bottom: 1px solid white;
+}
+
+.foot{
+  line-height: 50px;
+  float: left;
+  width: 86%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+main + section, main + section + section + section{
+  color: #304659;
+}
+
+footer{
+  background: #161f2a;
+  color: white;
+}

@@ -1,0 +1,101 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'KoHo', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header{
+  /*height: 50px;*/
+}
+
+nav *{
+  float: left;
+  width: 25%;
+}
+
+nav ul{
+  width: 50%;
+}
+
+nav li{
+  width: 16%;
+}
+
+main {
+  background-image: url("https://placekitten.com/1920/1080");
+  padding: 10%;
+  font-size: 25px;
+}
+
+main section h1{
+  font-size: 80px;
+}
+
+main + section{
+  background-image: url("https://placekitten.com/1920/1080");
+  padding: 10% 5% 10% 40%;
+  font-size: 25px;
+}
+
+main + section + section{
+  padding: 5%;
+  font-size: 25px;
+  text-align: center;
+}
+
+main + section + section li{
+  float: left;
+  width: 20%;
+  list-style: none;
+}
+
+main + section + section section > section{
+  float: left;
+  width: 25%;
+}
+
+main + section + section + section{
+  text-align: center;
+  padding: 5%;
+}
+
+main + section + section + section > section section{
+  float: left;
+  width: 50%;
+}
+
+main + section + section + section + section{
+  text-align: center;
+  padding: 5% 10%;
+  font-size: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

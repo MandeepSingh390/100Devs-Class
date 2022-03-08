@@ -1,0 +1,91 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav *{
+  padding: 2% 2%;
+  float: left;
+  width: 25%;
+  text-decoration: none;
+  background: #66768a;
+  color: white;
+}
+
+main {
+  background: #66768a;
+  color: white;
+  text-align: center;
+  padding: 10% 10% 20% 10%;
+  font-size: 30px;
+}
+
+main + section{
+  color: #161f2a;
+  text-align: center;
+  padding: 10% 25%;
+  font-size: 25px;
+}
+
+main + section + section section{
+  background: #dbdfe2;
+  color: #161f2a;
+  padding: 8% 10%;
+  text-align: center; 
+  float: left;
+  width: 50%;
+}
+
+main + section + section + section{
+  font-size: 25px;
+  text-align: center;
+  padding: 40% 25% 10% 25%;
+}
+
+footer {
+  background: #66768a;
+  color: white;
+  float: left;
+  width: 100%;
+}
+
+footer > section > p{
+  float: right;
+}
+
+main + section + section a, main + section + section + section a{
+  padding: 2%;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
