@@ -1,8 +1,10 @@
 // *Variables*
 // Create a variable and console log the value
-
+let var1 = 69
+console.log(var1)
 // Create a variable, add 10 to it, and alert the value
-
+let var2 = 15
+console.log(var2 + 10)
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
 
