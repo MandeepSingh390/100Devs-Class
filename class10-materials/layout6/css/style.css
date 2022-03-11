@@ -48,7 +48,8 @@ nav li{
 }
 
 main {
-  background-image: url("https://placekitten.com/1920/1080");
+  background-image: url("../images/main.jpg");
+  background-size: 100%;
   padding: 10%;
   font-size: 25px;
 }
@@ -58,8 +59,13 @@ main section h1{
 }
 
 main + section{
-  background-image: url("https://placekitten.com/1920/1080");
-  padding: 10% 5% 10% 40%;
+  background: #f8f8f8;
+  background-image: url("../images/section-two-1.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 0 0 8px 8px white inset;
+  padding: 10% 5% 10% 50%;
   font-size: 25px;
 }
 
