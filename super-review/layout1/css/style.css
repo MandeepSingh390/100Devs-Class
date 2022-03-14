@@ -21,10 +21,29 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+body > *{
+  border: 2px solid purple;
+  height: 150px;
 }
 
+/*.top{
+  width: 33.33%;
+  float: left;
+}
+
+.down{
+  width: 50%;
+  float: left;
+  height: 200px;
+}*/
+
+main, .bottom{
+  display: flex;
+}
+
+section{
+  flex: 1;
+}
 
 /******************************************
 /* LAYOUT
