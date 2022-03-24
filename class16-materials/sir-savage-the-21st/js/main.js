@@ -1,9 +1,16 @@
 //Create a function that has a loop that prints '21' 21 times to the console and then call that function
 //Bonus can you make it print '21' 21 times to the dom?
-function sirTwentyFirstTheSavage() {
-	for (let i = 0; i < 21; i++ ) {
+// function sirTwentyFirstTheSavage() {
+// 	for (let i = 0; i < 21; i++ ) {
+// 		console.log(21)
+// 		document.querySelector('#savageSays').innerText += " 21"
+// 	}
+// }
+// sirTwentyFirstTheSavage()
+function savage21(){
+	for(let i=1;i<=21;i++){
 		console.log(21)
-		document.querySelector('#savageSays').innerText += " 21"
+		document.querySelector('h2').innerText += i+" 21 \n"
 	}
 }
-sirTwentyFirstTheSavage()
+savage21()
