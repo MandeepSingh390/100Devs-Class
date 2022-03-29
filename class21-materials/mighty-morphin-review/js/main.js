@@ -20,7 +20,7 @@ function lowToHigh(num1, num2, num3){
 	console.log(`${num1} ${num2} ${num3}`)
 	let min = Math.min(num1,num2,num3)
 	let max = Math.max(num1,num2,num3)
-	console.log(`${max} ${min}`)
+	console.log(`${min} ${max}`)
 }
 lowToHigh(Math.floor(Math.random() * 100),Math.floor(Math.random() * 100),Math.floor(Math.random() * 100))
 // *Conditionals*
