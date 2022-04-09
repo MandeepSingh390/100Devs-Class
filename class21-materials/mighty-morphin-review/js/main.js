@@ -5,7 +5,7 @@ var1 = "Diwali"
 console.log(var1.toUpperCase())
 //Declare a variable, assign it a string, alert the last three characters in the string (Use your google-fu and the MDN)
 let var2 = "This is a String"
-alert(var2.slice((var2.length - 3),(var2.length)))
+alert(var2.slice(-3))
 // console.log(var2)
 // *Functions*
 // Create a function that takes in 5 numbers. Subtract all five from 100. Alert the absolute value of the difference. Call the function.
